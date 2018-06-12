@@ -1,5 +1,6 @@
 require_relative './spec_helper.rb'
 require_relative '../fizzbuzz.rb'
+#the code above tells this file which is our test we are running that it is required to load contents of the two files aboves
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
